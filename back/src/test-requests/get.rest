@@ -1,0 +1,14 @@
+## NEWS
+GET http://localhost:5000/api/news
+Content-Type: application/json
+
+{
+    "page": 1,
+    "perPage": 20
+}
+
+# GET http://localhost:5000/api/news/full
+# GET http://localhost:5000/api/news/61c5d5d37ba9e510422c1aa0
+
+## USERS
+# GET http://localhost:5000/api/users

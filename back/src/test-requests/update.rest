@@ -1,0 +1,9 @@
+PUT http://localhost:5000/api/news/61c5e00683bcdd3b0b761be6
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hdGlhc20iLCJpZCI6IjYxYzVkNGM3OTA5Y2M2ZDE3M2M0NzY3NyIsImlhdCI6MTY0MDM1NzQ4MH0.We-_OnDlk1HrSDB_2918X0gURkJf7zrcj6eIP4jy2xU
+
+{
+    "title": "Testeando crear",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "archiveDate": "2021-12-24T14:58:14.208Z"
+}
