@@ -6,10 +6,11 @@ const usersRouter = new Router();
 
 usersRouter.post("/", async (request, response) => {
   const body = request.body;
-
+  console.log(body);
   if (body.username.length < 6 || body.password.length < 6) {
     return response.status(400).json({
-      error: "username and password need to have a minimun length of 6 characters long",
+      error:
+        "username and password need to have a minimun length of 6 characters long",
     });
   }
   const saltRounds = 10;
@@ -34,4 +35,4 @@ usersRouter.get("/", async (request, response) => {
   response.json(users);
 });
 
-export {usersRouter};
+export { usersRouter };
